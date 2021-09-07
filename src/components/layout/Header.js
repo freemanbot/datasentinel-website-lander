@@ -10,12 +10,12 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Lander
+        Data Sentinel
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
+        {/* <AnchorLink className="px-4" href="#features">
           Features
-        </AnchorLink>
+        </AnchorLink> */}
         <AnchorLink className="px-4" href="#services">
           Services
         </AnchorLink>
@@ -27,7 +27,7 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <Button className="text-sm">Learn more</Button>
       </div>
     </div>
   </header>
